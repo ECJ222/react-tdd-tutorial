@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test Matches snapshot. 1`] = `
+Array [
+  <em
+    class="sc-eCssSg fUldDc"
+  >
+    New text
+  </em>,
+  <em
+    class="sc-eCssSg fUldDc"
+  >
+    New text
+  </em>,
+  <em
+    class="sc-eCssSg fUldDc"
+  >
+    New text
+  </em>,
+  <em
+    class="sc-eCssSg fUldDc"
+  >
+    New text
+  </em>,
+  <em
+    class="sc-eCssSg fUldDc"
+  >
+    New text
+  </em>,
+  <em
+    class="sc-eCssSg fUldDc"
+  >
+    New text
+  </em>,
+]
+`;
