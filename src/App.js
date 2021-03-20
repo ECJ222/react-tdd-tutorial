@@ -1,8 +1,8 @@
 import React from 'react'
 import Globalstyle from './components/globalstyles'
 import Layout from './components/layout'
-import NavContainer from './components/navcontainer'
-import Grids from './components/gridcontainer'
+import NavContainer from './components/nav'
+import Grids from './components/grid'
 
 function App () {
   return (

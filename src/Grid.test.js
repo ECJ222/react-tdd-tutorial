@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 import React from 'react'
 import { render, cleanup } from '@testing-library/react'
-import Grids from './components/gridcontainer'
+import Grids from './components/grid'
 
 afterEach(cleanup)
 
@@ -17,7 +17,7 @@ describe('Props test', () => {
 })
 
 describe('Snapshot test', () => {
-  test('Matches snapshot.', () => {
+  test('Renders correctly.', () => {
     const { getAllByText } = render(<Grids text="New text" />)
     const elements = getAllByText('New text')
 
